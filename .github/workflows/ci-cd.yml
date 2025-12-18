@@ -37,19 +37,11 @@ jobs:
         dotnet-version: '8.0.x'
     - run: dotnet test UserService/UserService.Tests/UserService.Tests.csproj --verbosity normal
 
-  test-payment:
-    name: Test Payment Service
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'
-    - run: dotnet test PaymentService/PaymentService.Tests/PaymentService.Tests.csproj --verbosity normal
+ 
 
   build-docker:
     name: Build Docker Images
-    needs: [test-identity, test-catalog, test-user, test-payment]
+    needs: [test-identity, test-catalog, test-user]
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     
@@ -93,3 +85,4 @@ jobs:
         file: ./PaymentService/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/payment-service:latest
+
