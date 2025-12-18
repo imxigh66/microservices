@@ -1,0 +1,499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microservices\\Microservices\\CatalogService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC3753C-2087-4DB1-B9CB-8737E9F01FFF}|CatalogService.Tests\\CatalogService.Tests.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice.tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC3753C-2087-4DB1-B9CB-8737E9F01FFF}|CatalogService.Tests\\CatalogService.Tests.csproj|solutionrelative:catalogservice.tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\enums\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\enums\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC3753C-2087-4DB1-B9CB-8737E9F01FFF}|CatalogService.Tests\\CatalogService.Tests.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC3753C-2087-4DB1-B9CB-8737E9F01FFF}|CatalogService.Tests\\CatalogService.Tests.csproj|solutionrelative:catalogservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\productwithimagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\productwithimagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\imageserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\imageserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\iimageserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\iimageserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\productsizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\productsizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\productsizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\productsizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\dto\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\dto\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|d:\\microservices\\microservices\\catalogservice\\catalogservice\\catalogservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7D681017-3F9A-4773-B15F-6D18BBA20817}|CatalogService\\CatalogService.csproj|solutionrelative:catalogservice\\catalogservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService.Tests\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "CatalogService.Tests\\ProductServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService.Tests\\ProductServiceTests.cs",
+              "RelativeToolTip": "CatalogService.Tests\\ProductServiceTests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:58:15.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CatalogService.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "CatalogService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:58:00.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Program.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Program.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Program.cs",
+              "RelativeToolTip": "CatalogService\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T18:47:14.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Models\\Product.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\Product.cs",
+              "RelativeToolTip": "CatalogService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:04:50.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\ProductDto.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductDto.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:35:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CatalogService\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:33:53.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductWithImagesRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductWithImagesRequest.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\ProductWithImagesRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductWithImagesRequest.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\ProductWithImagesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:19:30.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\IProductService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\IProductService.cs",
+              "RelativeToolTip": "CatalogService\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:19:54.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IImageServiceClient.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\IImageServiceClient.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\IImageServiceClient.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\IImageServiceClient.cs",
+              "RelativeToolTip": "CatalogService\\Services\\IImageServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:15:54.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\ProductSize.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Models\\ProductSize.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\ProductSize.cs",
+              "RelativeToolTip": "CatalogService\\Models\\ProductSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:06:14.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Size.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Enums\\Size.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Enums\\Size.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Enums\\Size.cs",
+              "RelativeToolTip": "CatalogService\\Enums\\Size.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:17:44.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImageServiceClient.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ImageServiceClient.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\ImageServiceClient.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ImageServiceClient.cs",
+              "RelativeToolTip": "CatalogService\\Services\\ImageServiceClient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:16:26.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\appsettings.json",
+              "RelativeDocumentMoniker": "CatalogService\\appsettings.json",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\appsettings.json",
+              "RelativeToolTip": "CatalogService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T21:10:05.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ProductService.cs",
+              "RelativeToolTip": "CatalogService\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwE0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:21:48.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Data\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Data\\ProductDbContext.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Data\\ProductDbContext.cs",
+              "RelativeToolTip": "CatalogService\\Data\\ProductDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:08:52.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\CategoryService.cs",
+              "RelativeToolTip": "CatalogService\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:29:24.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Models\\ProductImage.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\ProductImage.cs",
+              "RelativeToolTip": "CatalogService\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:06:47.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Mappings\\MappingProfile.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "CatalogService\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:46:19.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\ProductRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductRequest.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\ProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:35:57.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductSizeRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductSizeRequest.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\ProductSizeRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductSizeRequest.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\ProductSizeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:01:13.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CatalogService\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:36:55.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Models\\Category.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Models\\Category.cs",
+              "RelativeToolTip": "CatalogService\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:05:51.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductSizeDto.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductSizeDto.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\ProductSizeDto.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\ProductSizeDto.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\ProductSizeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:57:23.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\CategoryDto.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:38:34.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateCategoryRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\CreateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "CatalogService\\DTO\\CreateCategoryRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\DTO\\CreateCategoryRequest.cs",
+              "RelativeToolTip": "CatalogService\\DTO\\CreateCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:38:59.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CatalogService.csproj",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\CatalogService.csproj",
+              "RelativeDocumentMoniker": "CatalogService\\CatalogService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\CatalogService.csproj",
+              "RelativeToolTip": "CatalogService\\CatalogService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T21:57:30.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CatalogService\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "CatalogService\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:28:15.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CatalogService",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\CatalogService.csproj",
+              "RelativeDocumentMoniker": "CatalogService\\CatalogService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\CatalogService\\CatalogService\\CatalogService.csproj",
+              "RelativeToolTip": "CatalogService\\CatalogService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T21:02:07.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

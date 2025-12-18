@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microservices\\Microservices\\Erox.ImageService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{762FA117-DA10-4C4F-98F7-E18EAD527842}|ImageService.Tests\\ImageService.Tests.csproj|d:\\microservices\\microservices\\erox.imageservice\\imageservice.tests\\s3servicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762FA117-DA10-4C4F-98F7-E18EAD527842}|ImageService.Tests\\ImageService.Tests.csproj|solutionrelative:imageservice.tests\\s3servicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762FA117-DA10-4C4F-98F7-E18EAD527842}|ImageService.Tests\\ImageService.Tests.csproj|d:\\microservices\\microservices\\erox.imageservice\\imageservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762FA117-DA10-4C4F-98F7-E18EAD527842}|ImageService.Tests\\ImageService.Tests.csproj|solutionrelative:imageservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\services\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\services\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\erox.imageservice.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\erox.imageservice.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|d:\\microservices\\microservices\\erox.imageservice\\erox.imageservice.api\\erox.imageservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{492B9B03-9451-4C3D-A879-AFA71C03DDFF}|Erox.ImageService.Api\\Erox.ImageService.Api.csproj|solutionrelative:erox.imageservice.api\\erox.imageservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S3ServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\ImageService.Tests\\S3ServiceTests.cs",
+              "RelativeDocumentMoniker": "ImageService.Tests\\S3ServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\ImageService.Tests\\S3ServiceTests.cs",
+              "RelativeToolTip": "ImageService.Tests\\S3ServiceTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:15:07.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\ImageService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ImageService.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\ImageService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ImageService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:14:52.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Erox.ImageService.Api",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "RelativeToolTip": "Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T14:25:59.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Dockerfile",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Dockerfile",
+              "RelativeToolTip": "Erox.ImageService.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-01T22:38:39.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Erox.ImageService.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T10:35:52.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Erox.ImageService.Api\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:21:17.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Program.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Program.cs",
+              "RelativeToolTip": "Erox.ImageService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:20:32.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S3Service.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Services\\S3Service.cs",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Services\\S3Service.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Services\\S3Service.cs",
+              "RelativeToolTip": "Erox.ImageService.Api\\Services\\S3Service.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:19:19.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Erox.ImageService.Api.csproj",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "RelativeToolTip": "Erox.ImageService.Api\\Erox.ImageService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-30T10:17:39.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Erox.ImageService.Api\\appsettings.json",
+              "ToolTip": "D:\\Microservices\\Microservices\\Erox.ImageService\\Erox.ImageService.Api\\appsettings.json",
+              "RelativeToolTip": "Erox.ImageService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T10:15:42.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

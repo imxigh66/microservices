@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microservices\\Microservices\\PaymentService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AAE0961-E57F-4B0D-893D-17EAB3E32D0C}|..\\PaymentService.Tests\\PaymentService.Tests.csproj|d:\\microservices\\microservices\\paymentservice.tests\\paymentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AAE0961-E57F-4B0D-893D-17EAB3E32D0C}|..\\PaymentService.Tests\\PaymentService.Tests.csproj|d:\\microservices\\microservices\\paymentservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\services\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:services\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\kafka\\ordercreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:kafka\\ordercreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\controllers\\webhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:controllers\\webhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\dtos\\createpaymentintentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:dtos\\createpaymentintentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\kafka\\paymentsucceededevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:kafka\\paymentsucceededevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\kafka\\paymentfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:kafka\\paymentfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\kafka\\paymentproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:kafka\\paymentproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\dtos\\ordercreatedeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:dtos\\ordercreatedeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\dtos\\paymentintentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:dtos\\paymentintentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\models\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:models\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|d:\\microservices\\microservices\\paymentservice\\data\\paymentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192E0F3-0152-4FB4-A4FF-A27893401477}|PaymentService.csproj|solutionrelative:data\\paymentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService.Tests\\PaymentServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService.Tests\\PaymentServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService.Tests\\PaymentServiceTests.cs*",
+              "RelativeToolTip": "..\\PaymentService.Tests\\PaymentServiceTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:19:33.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\PaymentService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:19:19.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:23:05.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentSucceededEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentSucceededEvent.cs",
+              "RelativeDocumentMoniker": "Kafka\\PaymentSucceededEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentSucceededEvent.cs",
+              "RelativeToolTip": "Kafka\\PaymentSucceededEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:39:35.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:24:39.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebhookController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Controllers\\WebhookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WebhookController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Controllers\\WebhookController.cs",
+              "RelativeToolTip": "Controllers\\WebhookController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAjwDMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:30:41.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Models\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentStatus.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Models\\PaymentStatus.cs",
+              "RelativeToolTip": "Models\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:28:41.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderCreatedConsumer.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\OrderCreatedConsumer.cs",
+              "RelativeDocumentMoniker": "Kafka\\OrderCreatedConsumer.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\OrderCreatedConsumer.cs",
+              "RelativeToolTip": "Kafka\\OrderCreatedConsumer.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAjwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:34:52.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreatePaymentIntentRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\CreatePaymentIntentRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreatePaymentIntentRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\CreatePaymentIntentRequest.cs",
+              "RelativeToolTip": "DTOs\\CreatePaymentIntentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:48:13.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T22:21:23.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StripeService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Services\\StripeService.cs",
+              "RelativeDocumentMoniker": "Services\\StripeService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Services\\StripeService.cs",
+              "RelativeToolTip": "Services\\StripeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:23:27.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:35:22.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentFailedEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentFailedEvent.cs",
+              "RelativeDocumentMoniker": "Kafka\\PaymentFailedEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentFailedEvent.cs",
+              "RelativeToolTip": "Kafka\\PaymentFailedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:39:53.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentProducer.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentProducer.cs",
+              "RelativeDocumentMoniker": "Kafka\\PaymentProducer.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Kafka\\PaymentProducer.cs",
+              "RelativeToolTip": "Kafka\\PaymentProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:34:04.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderItemDto.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:49:19.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderCreatedEventDto.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\OrderCreatedEventDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderCreatedEventDto.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\OrderCreatedEventDto.cs",
+              "RelativeToolTip": "DTOs\\OrderCreatedEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:49:01.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentIntentResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\PaymentIntentResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\PaymentIntentResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\DTOs\\PaymentIntentResponse.cs",
+              "RelativeToolTip": "DTOs\\PaymentIntentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:48:44.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderCreatedEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Models\\OrderCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Models\\OrderCreatedEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Models\\OrderCreatedEvent.cs",
+              "RelativeToolTip": "Models\\OrderCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:32:20.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:05:50.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentDbContext.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PaymentDbContext.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeToolTip": "Data\\PaymentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:26:21.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

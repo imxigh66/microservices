@@ -1,0 +1,873 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microservices\\Microservices\\UserService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7C53ED-228A-41C2-9C50-C3B72019C15A}|NewFolder1{6E7C53ED-228A-41C2-9C50-C3B72019C15A}|D:\\Microservices\\Microservices\\UserService\\ci-cd.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6E7C53ED-228A-41C2-9C50-C3B72019C15A}|NewFolder1{6E7C53ED-228A-41C2-9C50-C3B72019C15A}|solutionrelative:ci-cd.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|d:\\microservices\\microservices\\userservice\\userservice.tests\\services\\wishlistservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|solutionrelative:userservice.tests\\services\\wishlistservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|d:\\microservices\\microservices\\userservice\\userservice.tests\\services\\cartservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|solutionrelative:userservice.tests\\services\\cartservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\catalogclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\catalogclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|d:\\microservices\\microservices\\userservice\\userservice.tests\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|solutionrelative:userservice.tests\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|d:\\microservices\\microservices\\userservice\\userservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4A4F9A-FCC6-4DE9-8CA1-62B6360EBE1E}|UserService.Tests\\UserService.Tests.csproj|solutionrelative:userservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\kafka\\orderproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\kafka\\orderproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\events\\ordercreateditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\events\\ordercreateditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\orderlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\orderlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\migrations\\20251119163755_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\migrations\\20251119163755_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\migrations\\20251119122141_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\migrations\\20251119122141_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\tests\\cartservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\tests\\cartservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\cartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\cartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\addtowishlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\addtowishlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\wishlistitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\wishlistitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\cartsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\cartsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\icatalogclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\icatalogclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\services\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\migrations\\20251101200905_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\migrations\\20251101200905_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\updateprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\updateprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\data\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\dtos\\updatecartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\dtos\\updatecartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|d:\\microservices\\microservices\\userservice\\userservice\\userservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2DEAF37A-0649-44CC-8F87-C2CF7BB1C182}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ci-cd.yml",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\ci-cd.yml",
+              "RelativeDocumentMoniker": "ci-cd.yml",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\ci-cd.yml",
+              "RelativeToolTip": "ci-cd.yml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-18T15:31:45.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\CartServiceTests.cs",
+              "RelativeDocumentMoniker": "UserService.Tests\\Services\\CartServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\CartServiceTests.cs",
+              "RelativeToolTip": "UserService.Tests\\Services\\CartServiceTests.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAmwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:45:34.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "UserService.Tests\\Services\\ProfileService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\ProfileService.cs",
+              "RelativeToolTip": "UserService.Tests\\Services\\ProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:44:51.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WishlistServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\WishlistServiceTests.cs",
+              "RelativeDocumentMoniker": "UserService.Tests\\Services\\WishlistServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\Services\\WishlistServiceTests.cs",
+              "RelativeToolTip": "UserService.Tests\\Services\\WishlistServiceTests.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAmwKMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:43:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UserService.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "UserService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:42:43.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\OrderService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\OrderService.cs",
+              "RelativeToolTip": "UserService\\Services\\OrderService.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAA7wKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:43:01.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\CartService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\CartService.cs",
+              "RelativeToolTip": "UserService\\Services\\CartService.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAkwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:45:45.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\ProfileService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ProfileService.cs",
+              "RelativeToolTip": "UserService\\Services\\ProfileService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:36:19.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\WishlistService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\WishlistService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\WishlistService.cs",
+              "RelativeToolTip": "UserService\\Services\\WishlistService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:43:34.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\ICartService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ICartService.cs",
+              "RelativeToolTip": "UserService\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:45:26.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogClient.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\CatalogClient.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\CatalogClient.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\CatalogClient.cs",
+              "RelativeToolTip": "UserService\\Services\\CatalogClient.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:21:34.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderProducer.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Kafka\\OrderProducer.cs",
+              "RelativeDocumentMoniker": "UserService\\Kafka\\OrderProducer.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Kafka\\OrderProducer.cs",
+              "RelativeToolTip": "UserService\\Kafka\\OrderProducer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:19:25.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KafkaConsumerService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\KafkaConsumerService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\KafkaConsumerService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\KafkaConsumerService.cs",
+              "RelativeToolTip": "UserService\\Services\\KafkaConsumerService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:26:53.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\TestController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:00:55.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\WishlistController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:53:00.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:46:45.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:43:46.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Controllers\\CartController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:58:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddToCartRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\AddToCartRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\AddToCartRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\AddToCartRequest.cs",
+              "RelativeToolTip": "UserService\\DTOs\\AddToCartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:15:33.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\CartItem.cs",
+              "RelativeToolTip": "UserService\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:12:20.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.json",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\appsettings.json",
+              "RelativeToolTip": "UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-01T20:01:41.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:47:43.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderCreatedEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\OrderCreatedEvent.cs",
+              "RelativeDocumentMoniker": "UserService\\Events\\OrderCreatedEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\OrderCreatedEvent.cs",
+              "RelativeToolTip": "UserService\\Events\\OrderCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:18:19.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderCreatedItem.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\OrderCreatedItem.cs",
+              "RelativeDocumentMoniker": "UserService\\Events\\OrderCreatedItem.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\OrderCreatedItem.cs",
+              "RelativeToolTip": "UserService\\Events\\OrderCreatedItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:18:41.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\CreateOrderRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CreateOrderRequest.cs",
+              "RelativeToolTip": "UserService\\DTOs\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:41:10.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\UserDbContext.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "UserService\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:17:46.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\OrderResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:41:35.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\OrderItemResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderItemResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:41:52.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderListResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderListResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\OrderListResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\OrderListResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\OrderListResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:42:11.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\IOrderService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IOrderService.cs",
+              "RelativeToolTip": "UserService\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:42:43.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20251119163755_Orders.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251119163755_Orders.cs",
+              "RelativeDocumentMoniker": "UserService\\Migrations\\20251119163755_Orders.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251119163755_Orders.cs",
+              "RelativeToolTip": "UserService\\Migrations\\20251119163755_Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:37:58.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20251119122141_Order.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251119122141_Order.cs",
+              "RelativeDocumentMoniker": "UserService\\Migrations\\20251119122141_Order.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251119122141_Order.cs",
+              "RelativeToolTip": "UserService\\Migrations\\20251119122141_Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:21:50.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\OrderStatus.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "UserService\\Models\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:19:55.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\OrderItem.cs",
+              "RelativeToolTip": "UserService\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:19:18.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\Order.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\Order.cs",
+              "RelativeToolTip": "UserService\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:19:10.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T11:58:21.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\UserProfile.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\UserProfile.cs",
+              "RelativeToolTip": "UserService\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:52:37.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CartItemResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CartItemResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\CartItemResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CartItemResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\CartItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:16:16.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddToWishlistRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\AddToWishlistRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\AddToWishlistRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\AddToWishlistRequest.cs",
+              "RelativeToolTip": "UserService\\DTOs\\AddToWishlistRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:14:49.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CartServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Tests\\CartServiceTests.cs",
+              "RelativeDocumentMoniker": "UserService\\Tests\\CartServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Tests\\CartServiceTests.cs",
+              "RelativeToolTip": "UserService\\Tests\\CartServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:58:43.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WishlistItemResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\WishlistItemResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\WishlistItemResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\WishlistItemResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\WishlistItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:15:08.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CartSummaryResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CartSummaryResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\CartSummaryResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\CartSummaryResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\CartSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:16:35.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICatalogClient.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ICatalogClient.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\ICatalogClient.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\ICatalogClient.cs",
+              "RelativeToolTip": "UserService\\Services\\ICatalogClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:21:07.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IWishlistService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IWishlistService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\IWishlistService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IWishlistService.cs",
+              "RelativeToolTip": "UserService\\Services\\IWishlistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:43:13.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IProfileService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\IProfileService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Services\\IProfileService.cs",
+              "RelativeToolTip": "UserService\\Services\\IProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:35:52.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WishlistItem.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\WishlistItem.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\WishlistItem.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Models\\WishlistItem.cs",
+              "RelativeToolTip": "UserService\\Models\\WishlistItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:11:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProfileResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\ProfileResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\ProfileResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\ProfileResponse.cs",
+              "RelativeToolTip": "UserService\\DTOs\\ProfileResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:13:42.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251101200905_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251101200905_InitialCreate.cs",
+              "RelativeDocumentMoniker": "UserService\\Migrations\\20251101200905_InitialCreate.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Migrations\\20251101200905_InitialCreate.cs",
+              "RelativeToolTip": "UserService\\Migrations\\20251101200905_InitialCreate.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T20:10:27.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserRegisteredEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\UserRegisteredEvent.cs",
+              "RelativeDocumentMoniker": "UserService\\Events\\UserRegisteredEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Events\\UserRegisteredEvent.cs",
+              "RelativeToolTip": "UserService\\Events\\UserRegisteredEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:26:23.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\Data\\UserDbContextFactory.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\UserDbContextFactory.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\Data\\UserDbContextFactory.cs",
+              "RelativeToolTip": "UserService\\Data\\UserDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:23:30.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UpdateProfileRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\UpdateProfileRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\UpdateProfileRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\UpdateProfileRequest.cs",
+              "RelativeToolTip": "UserService\\DTOs\\UpdateProfileRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:13:19.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UpdateCartItemRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\UpdateCartItemRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\DTOs\\UpdateCartItemRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\DTOs\\UpdateCartItemRequest.cs",
+              "RelativeToolTip": "UserService\\DTOs\\UpdateCartItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:15:56.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserService",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\UserService\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\UserService\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T18:50:25.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

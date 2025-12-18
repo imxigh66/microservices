@@ -1,0 +1,255 @@
+version: '3.8'
+
+services:
+  # ==================== БАЗА ДАННЫХ ====================
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong@Passw0rd123
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqldata:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "timeout 1 bash -c '</dev/tcp/localhost/1433' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - app-network
+
+  # ==================== KAFKA ====================
+  dev-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: dev-zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - app-network
+
+  dev-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: dev-kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: dev-zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://dev-kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      # ВАЖНО: Авто-создание топиков
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    depends_on:
+      - dev-zookeeper
+    networks:
+      - app-network
+
+  # Инициализация Kafka топиков
+  kafka-init:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka-init
+    depends_on:
+      - dev-kafka
+    networks:
+      - app-network
+    entrypoint: ['/bin/sh', '-c']
+    command: |
+      "
+      # Ждем пока Kafka запустится
+      echo 'Waiting for Kafka to be ready...'
+      cub kafka-ready -b dev-kafka:9092 1 30
+      
+      # Создаем топики
+      echo 'Creating Kafka topics...'
+      kafka-topics --create --if-not-exists --bootstrap-server dev-kafka:9092 --partitions 1 --replication-factor 1 --topic user.registered
+      kafka-topics --create --if-not-exists --bootstrap-server dev-kafka:9092 --partitions 1 --replication-factor 1 --topic user.logged-in
+      kafka-topics --create --if-not-exists --bootstrap-server dev-kafka:9092 --partitions 1 --replication-factor 1 --topic order-created
+      
+      echo 'Kafka topics created successfully!'
+      "
+
+  dev-kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: dev-kafka-ui
+    ports:
+      - "8080:8080"
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=local
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=dev-kafka:9092
+      - KAFKA_CLUSTERS_0_ZOOKEEPER=dev-zookeeper:2181
+    depends_on:
+      - dev-kafka
+    networks:
+      - app-network
+
+  # ==================== IDENTITY SERVICE ====================
+  identity-service:
+    build:
+      context: .
+      dockerfile: IdentityService/Dockerfile
+    container_name: identity-service
+    ports:
+      - "7001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__IdentityDb=Server=sqlserver,1433;Database=ShoeShop_Identity;User Id=sa;Password=YourStrong@Passw0rd123;TrustServerCertificate=True;Encrypt=False;MultipleActiveResultSets=true;
+      - Kafka__BootstrapServers=dev-kafka:9092
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+      dev-kafka:
+        condition: service_started
+    networks:
+      - app-network
+    restart: on-failure
+
+  # ==================== IMAGE SERVICE ====================
+  image-service:
+    build:
+      context: .
+      dockerfile: Erox.ImageService/Dockerfile
+    container_name: image-service
+    ports:
+      - "5050:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - AWS__Region=eu-north-1
+      - AWS__S3__BucketName=erox-shoes-images
+      - AWS__AccessKeyId=${AWS_ACCESS_KEY_ID}
+      - AWS__SecretAccessKey=${AWS_SECRET_ACCESS_KEY}
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: on-failure
+
+  # ==================== CATALOG SERVICE ====================
+  catalog-service:
+    build:
+      context: .
+      dockerfile: CatalogService/Dockerfile
+    container_name: catalog-service
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__ProductDb=Server=sqlserver,1433;Database=ProductServiceDb;User Id=sa;Password=YourStrong@Passw0rd123;TrustServerCertificate=True;Encrypt=False;MultipleActiveResultSets=true;
+      - ImageService__BaseUrl=http://image-service:8080/
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+      image-service:
+        condition: service_started
+    networks:
+      - app-network
+    restart: on-failure
+
+  # ==================== USER SERVICE ====================
+  user-service:
+    build:
+      context: .
+      dockerfile: UserService/Dockerfile
+    container_name: user-service
+    ports:
+      - "6000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__UserDb=Server=sqlserver,1433;Database=UserServiceDb;User Id=sa;Password=YourStrong@Passw0rd123;Encrypt=False;TrustServerCertificate=True;MultipleActiveResultSets=true;
+      - Kafka__BootstrapServers=dev-kafka:9092
+      - Catalog__BaseUrl=http://catalog-service:8080/
+      - JwtSettings__SecretKey=SuperSecretKey123456789012345678901234567890
+      - JwtSettings__Issuer=ShoeShopIdentityService
+      - JwtSettings__Audience=ShoeShopClients
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+      kafka-init:
+        condition: service_completed_successfully
+      catalog-service:
+        condition: service_started
+    networks:
+      - app-network
+    restart: on-failure
+
+
+  # ==================== PAYMENT SERVICE ====================
+  payment-service:
+    build:
+      context: .
+      dockerfile: PaymentService/Dockerfile
+    container_name: payment-service
+    ports:
+      - "7002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+      # SQL Server
+      - ConnectionStrings__PaymentDb=Server=sqlserver,1433;Database=PaymentDb;User Id=sa;Password=YourStrong@Passw0rd123;Encrypt=False;TrustServerCertificate=True;MultipleActiveResultSets=true;
+
+      # Kafka
+      - Kafka__BootstrapServers=dev-kafka:9092
+      - Kafka__Topics__OrderCreated=order-created
+      - Kafka__Topics__PaymentSucceeded=payment-succeeded
+      - Kafka__Topics__PaymentFailed=payment-failed
+
+      # Stripe
+      - Stripe__SecretKey=${STRIPE_SECRET_KEY}
+      - Stripe__WebhookSecret=whsec_6Km82Z6RrYTk1hYo41D2qpvRPLB1RwM2
+      - Stripe__SuccessUrl=https://httpbin.org/status/200
+      - Stripe__CancelUrl=https://httpbin.org/status/200
+      - Stripe__Currency=usd
+
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+      dev-kafka:
+        condition: service_started
+
+    networks:
+      - app-network
+
+    restart: on-failure
+
+ # ==================== API GATEWAY ====================
+  api-gateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    container_name: api-gateway
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - JwtSettings__SecretKey=SuperSecretKey123456789012345678901234567890
+      - JwtSettings__Issuer=ShoeShopIdentityService
+      - JwtSettings__Audience=ShoeShopClients
+    depends_on:
+      - catalog-service
+      - user-service
+      - payment-service
+      - identity-service
+      - image-service
+    networks:
+      - app-network
+    restart: on-failure
+
+# ==================== VOLUMES ====================
+volumes:
+  sqldata:
+    driver: local
+
+# ==================== NETWORKS ====================
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microservices\\Microservices\\IdentityService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{997C5D76-ABD4-4C70-8D29-6D95FA90F0D1}|NewFolder1{997C5D76-ABD4-4C70-8D29-6D95FA90F0D1}|D:\\Microservices\\Microservices\\IdentityService\\ci-cd.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{997C5D76-ABD4-4C70-8D29-6D95FA90F0D1}|NewFolder1{997C5D76-ABD4-4C70-8D29-6D95FA90F0D1}|solutionrelative:ci-cd.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|d:\\microservices\\microservices\\identityservice\\identityservice.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|solutionrelative:identityservice.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|d:\\microservices\\microservices\\identityservice\\identityservice.tests\\identityservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|solutionrelative:identityservice.tests\\identityservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|d:\\microservices\\microservices\\identityservice\\identityservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BA65A3-F05A-4812-ABF1-1488C8A196DF}|IdentityService.Tests\\IdentityService.Tests.csproj|solutionrelative:identityservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\identityservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\identityservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\itwofactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\itwofactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\migrations\\20251108213102_fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\migrations\\20251108213102_fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\twofactorverifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\twofactorverifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\kafkaeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\kafkaeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\events\\userloggedinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\events\\userloggedinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\services\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\services\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\identityservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\identityservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\migrations\\20251029201948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\migrations\\20251029201948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\models\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\models\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\dto\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\dto\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|d:\\microservices\\microservices\\identityservice\\identityservice\\identityservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4A6EDFDD-A9D2-4032-A105-665D16E5E598}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\identityservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITwoFactorService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\ITwoFactorService.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\ITwoFactorService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\ITwoFactorService.cs",
+              "RelativeToolTip": "IdentityService\\Services\\ITwoFactorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:47:54.672Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Program.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Program.cs",
+              "RelativeToolTip": "IdentityService\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAmwFkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:28:20.717Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TwoFactorVerifyRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\TwoFactorVerifyRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\TwoFactorVerifyRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\TwoFactorVerifyRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\TwoFactorVerifyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:18:24.417Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ci-cd.yml",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\ci-cd.yml",
+              "RelativeDocumentMoniker": "ci-cd.yml",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\ci-cd.yml",
+              "RelativeToolTip": "ci-cd.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-18T15:29:15.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityService.Tests.csproj",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\IdentityService.Tests.csproj",
+              "RelativeDocumentMoniker": "IdentityService.Tests\\IdentityService.Tests.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\IdentityService.Tests.csproj",
+              "RelativeToolTip": "IdentityService.Tests\\IdentityService.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-18T12:53:44.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "IdentityService.Tests\\AuthServiceTests.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\AuthServiceTests.cs",
+              "RelativeToolTip": "IdentityService.Tests\\AuthServiceTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:53:56.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "IdentityService.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "IdentityService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:53:24.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\AuthService.cs",
+              "RelativeToolTip": "IdentityService\\Services\\AuthService.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAswN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:48:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAqwAwBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-10T21:49:11.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IdentityService.csproj",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.csproj",
+              "RelativeDocumentMoniker": "IdentityService\\IdentityService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.csproj",
+              "RelativeToolTip": "IdentityService\\IdentityService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T14:00:55.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20251108213102_Fix.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Migrations\\20251108213102_Fix.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Migrations\\20251108213102_Fix.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Migrations\\20251108213102_Fix.cs",
+              "RelativeToolTip": "IdentityService\\Migrations\\20251108213102_Fix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:31:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Data\\SeedData.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\SeedData.cs",
+              "RelativeToolTip": "IdentityService\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:06:59.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\AuthResponse.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\AuthResponse.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:47:21.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\RegisterRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:45:14.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\TokenService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\TokenService.cs",
+              "RelativeToolTip": "IdentityService\\Services\\TokenService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T18:39:08.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\IEmailService.cs",
+              "RelativeToolTip": "IdentityService\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:16:12.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IEventPublisher.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\IEventPublisher.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\IEventPublisher.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\IEventPublisher.cs",
+              "RelativeToolTip": "IdentityService\\Services\\IEventPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:36:34.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserLoggedInEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Events\\UserLoggedInEvent.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Events\\UserLoggedInEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Events\\UserLoggedInEvent.cs",
+              "RelativeToolTip": "IdentityService\\Events\\UserLoggedInEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:36:16.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KafkaEventPublisher.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\KafkaEventPublisher.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Services\\KafkaEventPublisher.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Services\\KafkaEventPublisher.cs",
+              "RelativeToolTip": "IdentityService\\Services\\KafkaEventPublisher.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:37:48.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRegisteredEvent.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Events\\UserRegisteredEvent.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Events\\UserRegisteredEvent.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Events\\UserRegisteredEvent.cs",
+              "RelativeToolTip": "IdentityService\\Events\\UserRegisteredEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:35:58.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\RefreshTokenRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:46:00.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IdentityService",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.csproj",
+              "RelativeDocumentMoniker": "IdentityService\\IdentityService.csproj",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.csproj",
+              "RelativeToolTip": "IdentityService\\IdentityService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T13:35:52.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "IdentityService\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:14:17.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20251029201948_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Migrations\\20251029201948_InitialCreate.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Migrations\\20251029201948_InitialCreate.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Migrations\\20251029201948_InitialCreate.cs",
+              "RelativeToolTip": "IdentityService\\Migrations\\20251029201948_InitialCreate.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:20:05.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "IdentityService\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:49:39.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Models\\UserInfo.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\UserInfo.cs",
+              "RelativeToolTip": "IdentityService\\Models\\UserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:47:39.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppRoles.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\AppRoles.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Models\\AppRoles.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\AppRoles.cs",
+              "RelativeToolTip": "IdentityService\\Models\\AppRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:47:55.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\ChangePasswordRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:47:01.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\ResetPasswordRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:46:39.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "IdentityService\\DTO\\ForgotPasswordRequest.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\DTO\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "IdentityService\\DTO\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:46:22.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "IdentityService\\Models\\RefreshToken.cs",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "IdentityService\\Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:44:28.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IdentityService.http",
+              "DocumentMoniker": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.http",
+              "RelativeDocumentMoniker": "IdentityService\\IdentityService.http",
+              "ToolTip": "D:\\Microservices\\Microservices\\IdentityService\\IdentityService\\IdentityService.http",
+              "RelativeToolTip": "IdentityService\\IdentityService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-21T13:36:11.755Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
