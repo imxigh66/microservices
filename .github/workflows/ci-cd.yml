@@ -57,15 +57,15 @@ jobs:
     - name: Build Identity Service
       uses: docker/build-push-action@v5
       with:
-        context: ./IdentityService
-        file: ./IdentityService/Dockerfile
+        context: .                                    # ← ИЗМЕНИЛИ на корень
+        file: ./IdentityService/Dockerfile            # ← путь к Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/identity-service:latest
     
     - name: Build Catalog Service
       uses: docker/build-push-action@v5
       with:
-        context: ./CatalogService
+        context: .                                    # ← ИЗМЕНИЛИ на корень
         file: ./CatalogService/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/catalog-service:latest
@@ -73,7 +73,7 @@ jobs:
     - name: Build User Service
       uses: docker/build-push-action@v5
       with:
-        context: ./UserService
+        context: .                                    # ← ИЗМЕНИЛИ на корень
         file: ./UserService/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/user-service:latest
@@ -81,8 +81,17 @@ jobs:
     - name: Build Payment Service
       uses: docker/build-push-action@v5
       with:
-        context: ./PaymentService
+        context: .                                    # ← ИЗМЕНИЛИ на корень
         file: ./PaymentService/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/payment-service:latest
+    
+    - name: Build Image Service
+      uses: docker/build-push-action@v5
+      with:
+        context: .                                    # ← ИЗМЕНИЛИ на корень
+        file: ./Erox.ImageService/Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_USERNAME }}/image-service:latest
+
 
