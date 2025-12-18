@@ -1,0 +1,95 @@
+name: Microservices CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-identity:
+    name: Test Identity Service
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    - run: dotnet test IdentityService/IdentityService.Tests/IdentityService.Tests.csproj --verbosity normal
+
+  test-catalog:
+    name: Test Catalog Service
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    - run: dotnet test CatalogService/CatalogService.Tests/CatalogService.Tests.csproj --verbosity normal
+
+  test-user:
+    name: Test User Service
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    - run: dotnet test UserService/UserService.Tests/UserService.Tests.csproj --verbosity normal
+
+  test-payment:
+    name: Test Payment Service
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    - run: dotnet test PaymentService/PaymentService.Tests/PaymentService.Tests.csproj --verbosity normal
+
+  build-docker:
+    name: Build Docker Images
+    needs: [test-identity, test-catalog, test-user, test-payment]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+    
+    - name: Build Identity Service
+      uses: docker/build-push-action@v5
+      with:
+        context: ./IdentityService
+        file: ./IdentityService/Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_USERNAME }}/identity-service:latest
+    
+    - name: Build Catalog Service
+      uses: docker/build-push-action@v5
+      with:
+        context: ./CatalogService
+        file: ./CatalogService/Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_USERNAME }}/catalog-service:latest
+    
+    - name: Build User Service
+      uses: docker/build-push-action@v5
+      with:
+        context: ./UserService
+        file: ./UserService/Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_USERNAME }}/user-service:latest
+    
+    - name: Build Payment Service
+      uses: docker/build-push-action@v5
+      with:
+        context: ./PaymentService
+        file: ./PaymentService/Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_USERNAME }}/payment-service:latest
